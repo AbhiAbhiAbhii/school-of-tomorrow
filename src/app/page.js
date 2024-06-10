@@ -16,10 +16,10 @@ export default function Home() {
         <p
           className="font-bethanyElingston text-[14vw] 2xl:text-[220px] leading-[100%] tracking-wide text-main-text font-medium"
         >
-          {/* Schools of <br /> Tomorrow */}
-          <span>Sch ools</span>
+          Schools of <br /> Tomorrow
+          {/* <span>Sch ools</span>
           <span>of</span><br />
-          <span>T morrow</span>
+          <span>T morrow</span> */}
         </p>
         <Button 
           text={'Register Now'} 
