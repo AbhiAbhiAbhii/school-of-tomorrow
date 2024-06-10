@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --slide-speed: 10s;
+}
+
+.marquee-anim {
+  animation: var(--slide-speed) slideLeft infinite linear;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
 
 @layer utilities {
   .text-balance {

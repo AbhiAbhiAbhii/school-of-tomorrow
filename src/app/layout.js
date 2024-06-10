@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import "./globals.css"
 import { BethanyElingston } from "./utils/custom-font"
 import { Manrope } from "next/font/google"
@@ -18,9 +19,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body 
-        className={`${BethanyElingston.variable} ${ManRope.variable} bg-main overflow-hidden flex flex-col items-center justify-center`}
+        className={`${BethanyElingston.variable} ${ManRope.variable} bg-main flex flex-col items-center justify-center`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );

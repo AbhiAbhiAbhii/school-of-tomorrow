@@ -10,10 +10,10 @@ const Button = ({ propFunction, text, className }) => {
 
   return (
     <button
-        className={`${className} bg-cta-black text-custom-white w-fit px-4 py-4 rounded-full font-manRope`}
-        onClick={handleClick}
+      className={`${className} bg-cta-black text-custom-white w-fit px-8 py-4 rounded-full font-manRope cursor-pointer`}
+      onClick={handleClick}
     >
-        { text }
+      { text }
     </button>
   )
 }

@@ -34,6 +34,7 @@ const CountDown = () => {
                         <CountDownText number={days} timeFormat={'d'}  />
                         <CountDownText number={hours} timeFormat={'h'} />
                         <CountDownText number={minutes} timeFormat={'m'} />
+                        <CountDownText number={seconds} timeFormat={'s'} />
                     </div>
                 ) 
             })
