@@ -7,9 +7,9 @@ export default function Home() {
     <main 
       className="flex flex-col items-center justify-center pt-20 relative max-w-screen-2xl mx-auto h-dvh w-full"
     >
-      <div 
+      {/* <div 
         className='border-[5px] h-[1150px] w-[1150px] border-black rounded-full absolute top-[-40%] left-2/4 -translate-x-2/4 -translate-y-2/4'
-      />
+      /> */}
       <CountDown />
       <div
         className="mt-0 flex flex-col items-center"

@@ -21,6 +21,7 @@ const CountDown = () => {
             const timeVar = countDownDate - currentTime
 
             // get time format
+
             const days = Math.floor(timeVar / (1000 * 60 * 60 * 24)).toString().padStart(2, '0')
             const hours = Math.floor((timeVar % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString().padStart(2, '0')
             const minutes = Math.floor((timeVar % (1000 * 60 * 60)) / (1000 * 60)).toString().padStart(2, '0')
