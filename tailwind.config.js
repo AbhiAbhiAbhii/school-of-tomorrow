@@ -18,7 +18,10 @@ module.exports = {
       },
       backgroundColor: {
         "main": 'rgb(251 250 237)',
-        'cta-black': 'rgba(40, 40, 40, 1)'
+        'cta-black': 'rgba(40, 40, 40, 1)',
+        'baby-pink': 'rgba(238, 72, 117)',
+        'bananna-yellow': 'rgba(255, 210, 56)',
+        'baby-blue': 'rgba(14, 192, 226)'
       },
       colors: {
         'baby-pink': '#EE4875',

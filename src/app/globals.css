@@ -4,10 +4,51 @@
 
 :root {
   --slide-speed: 40s;
+
 }
 
 .marquee-anim {
   animation: var(--slide-speed) slideLeft infinite linear;
+}
+.custom-cta {
+  background: rgba(40, 40, 40, 1);
+}
+.cta-block-item {
+  position: absolute;
+}
+.cta-block-item-A {
+  top: 100%;
+  left: 0;
+}
+.cta-block-item-B {
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cta-block-item-C {
+  top: 100%;
+  right: 0;
+}
+.cta-text {
+  color: rgba(251, 250, 237, 1);
+}
+.custom-cta, .cta-block-item, .cta-text {
+  transition: all 0.5s cubic-bezier(0.76, 0.00, 0.24, 1.00);
+}
+.custom-cta:hover {
+  background: rgba(40, 40, 40, 0.5);
+}
+.custom-cta:hover .cta-block-item-A  {
+  top: 0;
+}
+.custom-cta:hover .cta-block-item-C {
+  top: 0;
+}
+.custom-cta:hover .cta-block-item-B {
+  top: 0;
+}
+.custom-cta:hover .cta-text {
+  color: #000;
 }
 
 @keyframes slideLeft {
