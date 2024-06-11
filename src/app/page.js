@@ -5,10 +5,10 @@ import CountDown from "./components/CountDown/CountDown";
 export default function Home() {
   return (
     <main 
-      className="flex flex-col items-center justify-center pt-20 relative max-w-screen-2xl mx-auto h-dvh w-full overflow-hidden"
+      className="flex flex-col items-center justify-center pt-40 relative max-w-screen-2xl mx-auto h-dvh w-full overflow-hidden"
     >
       <CountDown />
-      <div className="absolute sm:-top-2/3 left-2/4 transform -translate-x-2/4 h-[400px] w-[400px] top-[-210px] sm:h-[800px] sm:w-[800px]">
+      <div className="absolute sm:top-[-580px] left-2/4 transform -translate-x-2/4 h-[400px] w-[400px] top-[-210px] sm:h-[800px] sm:w-[800px]">
         <Image 
           height={800}
           width={800}
@@ -20,7 +20,6 @@ export default function Home() {
       <div
         className="flex flex-col items-center"
       >
-
         {/* was here */}
         <div className="relative">
           <p 
@@ -32,8 +31,8 @@ export default function Home() {
             src={'/Schools_of_Tomorrow.svg'}
             alt="Schools of Tomorrow"
             className="text-[220px]"
-            height={900}
-            width={900}
+            height={600}
+            width={600}
           />
         </div>
         <Button 
