@@ -44,3 +44,15 @@ export default function Home() {
     </main>
   )
 }
+
+export async function generateMetadata() {
+
+  return {
+    title: 'Schools of Tomorrow',
+    description: 'Coming Soon',
+    openGraph: {
+      images: ['/meta_sot_logo.png']
+    }
+  };
+}
+
