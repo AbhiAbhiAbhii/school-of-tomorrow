@@ -8,7 +8,7 @@ export default function Home() {
       className="flex flex-col items-center justify-center pt-20 relative max-w-screen-2xl mx-auto h-dvh w-full overflow-hidden"
     >
       <CountDown />
-      <div className="absolute sm:-top-2/3 left-2/4 transform -translate-x-2/4 h-[400px] w-[400px] top-[-200px] sm:h-[800px] sm:w-[800px]">
+      <div className="absolute sm:-top-2/3 left-2/4 transform -translate-x-2/4 h-[400px] w-[400px] top-[-210px] sm:h-[800px] sm:w-[800px]">
         <Image 
           height={800}
           width={800}
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
         <Button 
           text={'Register Now'} 
-          className={'mt-6'}
+          className={'mt-8 sm:mt-6'}
         />
       </div>
     </main>
