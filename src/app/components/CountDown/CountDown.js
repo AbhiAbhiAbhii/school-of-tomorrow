@@ -9,7 +9,7 @@ const CountDown = () => {
 
     useEffect(() => {
 
-        const countDownDate = new Date('June 11, 2024 23:59:59').getTime()
+        const countDownDate = new Date('June 20, 2024 23:59:59').getTime()
         const timeInterval = 1000
 
         const x = setInterval(() => {
