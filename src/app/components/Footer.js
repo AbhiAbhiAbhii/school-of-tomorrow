@@ -46,6 +46,44 @@ const Footer = () => {
                 })
             }
         </div>
+        <div
+            className={`inline-flex gap-8 marquee-anim`}
+        >
+            {
+                marqueeArray.map((item) => {
+                    return(
+                        <div
+                            key={item}
+                            className='flex items-center justify-center gap-8'
+                        >
+                            <p className='font-mono text-custom-white text-lg'>
+                            {text}
+                            </p>
+                            <Bling />
+                        </div>
+                    )
+                })
+            }
+        </div>
+        <div
+            className={`inline-flex gap-8 marquee-anim`}
+        >
+            {
+                marqueeArray.map((item) => {
+                    return(
+                        <div
+                            key={item}
+                            className='flex items-center justify-center gap-8'
+                        >
+                            <p className='font-mono text-custom-white text-lg'>
+                            {text}
+                            </p>
+                            <Bling />
+                        </div>
+                    )
+                })
+            }
+        </div>
     </div>
   )
 }
