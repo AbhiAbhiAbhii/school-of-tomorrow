@@ -8,13 +8,13 @@ export default function Home() {
       className="flex flex-col items-center justify-center pt-40 relative max-w-screen-2xl mx-auto h-dvh w-full overflow-hidden"
     >
       <CountDown />
-      <div className="absolute sm:top-[-580px] left-2/4 transform -translate-x-2/4 h-[400px] w-[400px] top-[-210px] sm:h-[800px] sm:w-[800px]">
+      <div className="absolute sm:top-[-580px] left-2/4 transform -translate-x-2/4 h-[400px] w-[400px] top-[-210px] sm:h-[800px] sm:w-[800px] pointer-events-none">
         <Image 
           height={800}
           width={800}
           src={'/ring_sot.svg'}
           alt="ring"
-          className="!h-full !w-full"
+          className="!h-full !w-full pointer-events-none"
         />
       </div>
       <div
@@ -30,7 +30,7 @@ export default function Home() {
           <Image 
             src={'/Schools_of_Tomorrow.svg'}
             alt="Schools of Tomorrow"
-            className="text-[220px]"
+            className="text-[220px] pointer-events-none"
             height={600}
             width={600}
           />
