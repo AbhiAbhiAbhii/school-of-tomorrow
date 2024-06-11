@@ -48,3 +48,8 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
+// om6f6ikzmogy
+// CNAME
+// gv-7dxalc26s4hatu.dv.googlehosted.com

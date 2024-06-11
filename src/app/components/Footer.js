@@ -4,6 +4,7 @@ import Bling from './Bling'
 const Footer = () => {
     
     const marqueeArray = ['0', '1', '2', '3', '4', '5', '6']
+    const text = "We're going live soon"
 
   return (
     <div className='w-screen bg-[#282828] flex gap-8 whitespace-nowrap overflow-hidden relative py-3'>
@@ -18,7 +19,7 @@ const Footer = () => {
                             className='flex items-center justify-center gap-8'
                         >
                             <p className='font-mono text-custom-white text-lg'>
-                                This website is going live soon
+                                {text}
                             </p>
                             <Bling />
                         </div>
@@ -37,7 +38,7 @@ const Footer = () => {
                             className='flex items-center justify-center gap-8'
                         >
                             <p className='font-mono text-custom-white text-lg'>
-                                This website is going live soon
+                            {text}
                             </p>
                             <Bling />
                         </div>
