@@ -7,6 +7,9 @@
 
 }
 
+.opacity-up {
+  animation: 0.8s opacityUp forwards cubic-bezier(0.76, 0.00, 0.24, 1.00);
+}
 .marquee-anim {
   animation: var(--slide-speed) slideLeft infinite linear;
 }
@@ -57,6 +60,15 @@
   }
   to {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes opacityUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 

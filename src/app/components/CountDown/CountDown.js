@@ -31,7 +31,7 @@ const CountDown = () => {
             setCountDownText(() => {
                 return  (
                     <div
-                        className='flex items-center gap-8 absolute top-[8%] left-2/4 transform -translate-x-2/4'
+                        className='flex items-center gap-8 absolute top-[8%] left-2/4 transform -translate-x-2/4 opacity-up'
                     >
                         <CountDownText number={days} timeFormat={'d'}  />
                         <CountDownText number={hours} timeFormat={'h'} />
