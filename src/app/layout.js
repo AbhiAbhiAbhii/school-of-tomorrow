@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body 
-        className={`${BethanyElingston.variable} ${ManRope.variable} bg-main flex flex-col items-center justify-center`}
+        className={`${BethanyElingston.variable} ${ManRope.variable} bg-main flex flex-col items-center justify-center h-dvh`}
       >
         {children}
         <Footer />

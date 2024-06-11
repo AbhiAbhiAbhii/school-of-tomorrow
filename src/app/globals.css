@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --slide-speed: 10s;
+  --slide-speed: 40s;
 }
 
 .marquee-anim {
@@ -12,10 +12,10 @@
 
 @keyframes slideLeft {
   from {
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
