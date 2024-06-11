@@ -8,6 +8,13 @@ export const metadata = {
   title: "Schools of tomorrow",
   description: "Coming Soon",
   metaDatabase: new URL('https://schoolsoftomorrow.vercel.app/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
+  },
   openGraph: {
     title: 'Schools of Tomorrow',
     description: 'Coming Soon',
