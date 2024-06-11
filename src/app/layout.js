@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: 'Schools of Tomorrow',
     description: 'Coming Soon',
-    images: '/meta_sot_logo.png'
+    images: '/opengraph-image.png'
   }
 }
 

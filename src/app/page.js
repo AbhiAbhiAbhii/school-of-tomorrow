@@ -51,7 +51,7 @@ export async function generateMetadata() {
     title: 'Schools of Tomorrow',
     description: 'Coming Soon',
     openGraph: {
-      images: ['/meta_sot_logo.png']
+      images: ['/opengraph-image.png']
     }
   };
 }
