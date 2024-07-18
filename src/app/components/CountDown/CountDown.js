@@ -31,7 +31,7 @@ const CountDown = () => {
             setCountDownText(() => {
                 return  (
                     <div
-                        className='flex items-center gap-8 absolute top-[8%] left-2/4 transform -translate-x-2/4 opacity-up'
+                        className='flex items-center gap-8 absolute top-[14%] left-2/4 transform -translate-x-2/4 opacity-up'
                     >
                         <CountDownText number={days} timeFormat={'d'}  />
                         <CountDownText number={hours} timeFormat={'h'} />
@@ -50,7 +50,25 @@ const CountDown = () => {
 
     }, [])
 
-  return <>{countDownText}</>
+  return (
+    <>
+        <div
+            className='absolute top-[4%] left-2/4 transform -translate-x-2/4'
+        >
+            <div className='flex gap-2'>
+                <p className='leading-6 font-manRope font-semibold text-base sm:text-2xl'>
+                    AUGUST
+                    <br />
+                    <span className='ml-6 sm:ml-10'>2024</span>
+                </p>
+                <p className='font-bethanyElingston flex text-base sm:text-2xl'>
+                    5-7<sup>th</sup>
+                </p>
+            </div>
+        </div>
+        {countDownText}
+    </>
+  )
 }
 
 export default CountDown
