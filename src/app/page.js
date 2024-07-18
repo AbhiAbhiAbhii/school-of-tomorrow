@@ -36,7 +36,7 @@ export default function Home() {
           />
         </div>
         <Button 
-          link={'https://thecircleindia.typeform.com/to/yNIWjHDG'}
+          link={'https://docs.google.com/forms/d/e/1FAIpQLSdfhQ-XhnXIebqcIifyQqZ-kcN7KgEgdpE-VRSKKJoopzpP5g/viewform '}
           text={'Register Now'} 
           className={'mt-8 sm:mt-6'}
         />
